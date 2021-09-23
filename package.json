@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build:css": "postcss css/style.css -o assets/css/style.css || echo 'Try `npm install -g postcss-cli`'",
+    "build:css:watch": "postcss --watch css/style.css -o assets/css/style.css || echo 'Try `npm install -g postcss-cli`'"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.5",
+    "postcss": "^8.3.7",
+    "postcss-apply": "^0.12.0",
+    "tailwindcss": "^2.2.15"
+  }
+}
