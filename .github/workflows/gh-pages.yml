@@ -13,6 +13,7 @@ jobs:
           node-version: '16'
           cache: 'npm'
       - run: npm install
+      - run: npm install postcss-cli
       - run: npm run build:css
       - run: mkdir build
       - run: cp index.html build/index.html
