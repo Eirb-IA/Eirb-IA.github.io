@@ -8,5 +8,8 @@
     "postcss": "^8.3.7",
     "postcss-apply": "^0.12.0",
     "tailwindcss": "^2.2.15"
+  },
+  "dependencies": {
+    "postcss-minify": "^1.1.0"
   }
 }
