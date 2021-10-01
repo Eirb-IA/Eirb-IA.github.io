@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build:css": "postcss css/style.css -o assets/css/style.css || echo 'Try `npm install -g postcss-cli`'",
-    "build:css:watch": "postcss --watch css/style.css -o assets/css/style.css || echo 'Try `npm install -g postcss-cli`'"
+    "build:css": "NODE_ENV=production postcss css/style.css -o assets/css/style.css || echo 'Try `npm install -g postcss-cli`'",
+    "build:css:watch": "NODE_ENV=production postcss --watch css/style.css -o assets/css/style.css || echo 'Try `npm install -g postcss-cli`'"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.5",
